@@ -8,11 +8,11 @@ use ieee.std_logic_1164.all;
 --How we 'talk' to the outside world:
 entity QuadratureDecoderPorts is
     port (
-        clock : 		in std_logic;
-        QuadA : 		in std_logic;
-        QuadB : 		in std_logic;
-        Direction : 	out std_logic;
-	   CountEnable :	out std_logic
+       	clock : 		in std_logic;
+       	QuadA : 		in std_logic;
+       	QuadB : 		in std_logic;
+       	Direction : 	out std_logic;
+	   	CountEnable :	out std_logic
     );
 end QuadratureDecoderPorts;
 

@@ -54,7 +54,7 @@ architecture QuadratureCounter of QuadratureCounterPorts is
         			clock     : in    std_logic;
         			QuadA     : in    std_logic;
         			QuadB     : in    std_logic;
-        			CountDirection : out std_logic;
+        			Direction : out std_logic;
 	   			CountEnable : out std_logic
     			);
 	end component;
@@ -67,7 +67,7 @@ architecture QuadratureCounter of QuadratureCounterPorts is
  				clock => clock,
 	      		QuadA => QuadA,
  	   			QuadB => QuadB,
-    				CountDirection => CountDirection,
+    				Direction => CountDirection,
 	       		CountEnable => CountEnable
 			);
 
