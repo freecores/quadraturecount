@@ -20,6 +20,7 @@ DEVGENERATEDSIMULATIONMODEL VHDL
 GENERATEDSIMULATIONMODELTIME 0
 SOURCE QuadratureCounter.vhd
 SOURCE QuadratureDecoder.vhd
+DEPASSOC quadraturecounterports Quadrature.ucf
 [Normal]
 p_CPLDFitunused=xstvhd, xpla3, Implementation.t_vm6File, 1058395051, Float
 p_impactConfigFileName=xstvhd, xpla3, Implementation.t_impactProgrammingTool, 1058541585, C:\Projects\Commutator\Firmware\commutatorports.jed
